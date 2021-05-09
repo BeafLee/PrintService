@@ -6,18 +6,19 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+
       </header>
+      <body>
+        <div className="card text-center">
+          <div className="card-header">
+            Imprimir
+          </div>
+          <div className="card-body">
+            <input type="text" className="my-2 form-control" placeholder="Código" />
+            <button type="button" className="btn btn-success">Confirmar</button>
+          </div>
+        </div>
+      </body>
     </div>
   );
 }
